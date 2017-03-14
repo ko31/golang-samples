@@ -12,8 +12,6 @@ type Vimeo struct {
 	Thumbnail_url string
 }
 
-//var id = "76979871"
-
 func run() error {
 
 	var url = "https://vimeo.com/api/oembed.json?url=https://vimeo.com/"
